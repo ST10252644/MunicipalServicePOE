@@ -803,13 +803,11 @@ The application includes built-in performance metrics:
 ---
 
 ## Academic Integrity Statement
-This project was completed individually by **Cherika Bodde (st10252644)** for PROG7312. All code is original work unless explicitly cited. The following third-party resources were used under their respective licenses:
+This project was completed individually by **Cherika Bodde (st10252644)** for PROG7312. The following third-party resources were used under their respective licenses:
 
 - **FontAwesome.Sharp** - Icon library (MIT License)
 - **Microsoft .NET Framework** - Application framework
 - **C# Language** - Programming language
-
-All algorithms and data structures were implemented from scratch based on academic knowledge and cited references. No code was directly copied from external sources without proper attribution.
 
 ---
 
