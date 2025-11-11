@@ -3,6 +3,7 @@
 **Student Name:** Cherika Bodde  
 **Student Number:** st10252644  
 **GitHub Repository:** [https://github.com/ST10252644/MunicipalAppService.git](https://github.com/ST10252644/MunicipalServicePOE.git)
+
 **Video Demonstration:** 
 
 ---
@@ -18,9 +19,8 @@
 8. Part 3 - Service Request Status Implementation
 9. Project Structure
 10. Troubleshooting
-11. Academic Integrity Statement
-12. References
-13. Contact Information
+11. References
+
 
 ---
 
