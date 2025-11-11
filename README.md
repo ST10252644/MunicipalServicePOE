@@ -2,8 +2,9 @@
 
 **Student Name:** Cherika Bodde  
 **Student Number:** st10252644  
-**GitHub Repository:** https://github.com/ST10252644/MunicipalAppService.git](https://github.com/ST10252644/MunicipalServicePOE.git
+**GitHub Repository:** [https://github.com/ST10252644/MunicipalAppService.git](https://github.com/ST10252644/MunicipalServicePOE.git)
 **Video Demonstration:** 
+
 ---
 
 ## Table of Contents
@@ -814,20 +815,56 @@ This project was completed individually by **Cherika Bodde (st10252644)** for PR
 ## References
 
 ### Books and Academic Papers
-- Cormen, T.H., Leiserson, C.E., Rivest, R.L. and Stein, C., 2022. *Introduction to Algorithms*. 4th ed. Cambridge: MIT Press.
-- Jamro, M., 2024. *C# Data Structures and Algorithms - Second Edition*. Birmingham: Packt Publishing.
+- Cormen, T.H., Leiserson, C.E., Rivest, R.L. and Stein, C., 2022. *Introduction to Algorithms*. 4th ed. Cambridge: MIT Press. ISBN: 978-0262046305.
+  - Referenced for: BST algorithms, graph traversal (DFS), topological sorting, heap operations
+- Jamro, M., 2024. *C# Data Structures and Algorithms - Second Edition*. Birmingham: Packt Publishing. ISBN: 978-1803248271.
+  - Referenced for: C# implementation patterns for trees, graphs, and heaps
 - Ricci, F., Rokach, L. and Shapira, B., 2022. *Recommender Systems Handbook*. 3rd ed. New York: Springer. DOI: 10.1007/978-1-0716-2197-4
-- Sedgewick, R. and Wayne, K., 2011. *Algorithms*. 4th ed. Boston: Addison-Wesley.
+  - Referenced for: Part 2 recommendation algorithms
+- Sedgewick, R. and Wayne, K., 2011. *Algorithms*. 4th ed. Boston: Addison-Wesley. ISBN: 978-0321573513.
+  - Referenced for: BST operations, graph algorithms, heap implementation
+- Weiss, M.A., 2012. *Data Structures and Algorithm Analysis in C++*. 4th ed. Boston: Pearson. ISBN: 978-0132847377.
+  - Referenced for: Tree balancing concepts, heap property maintenance
 
 ### Online Documentation
 - C# Corner, 2023. *Understanding Data Structures in C#*. Available at: https://www.c-sharpcorner.com/article/data-structures-in-c-sharp/ [Accessed 10 October 2025].
-- GeeksforGeeks, 2024. *Binary Search Tree*. Available at: https://www.geeksforgeeks.org/binary-search-tree-data-structure/ [Accessed 15 October 2025].
+  - Referenced for: General C# data structure patterns
+- GeeksforGeeks, 2024. *Binary Search Tree Data Structure*. Available at: https://www.geeksforgeeks.org/binary-search-tree-data-structure/ [Accessed 15 October 2025].
+  - Referenced for: BST insertion, deletion, and search algorithms
+- GeeksforGeeks, 2024. *Binary Search Tree | Set 1 (Search and Insertion)*. Available at: https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/ [Accessed 15 October 2025].
+  - Referenced for: Recursive BST operations
+- GeeksforGeeks, 2024. *Binary Search Tree | Set 2 (Delete)*. Available at: https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/ [Accessed 15 October 2025].
+  - Referenced for: BST deletion with three cases (no children, one child, two children)
 - GeeksforGeeks, 2024. *Graph Data Structure and Algorithms*. Available at: https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/ [Accessed 15 October 2025].
+  - Referenced for: Graph representation using adjacency list
+- GeeksforGeeks, 2024. *Detect Cycle in a Directed Graph*. Available at: https://www.geeksforgeeks.org/detect-cycle-in-a-graph/ [Accessed 16 October 2025].
+  - Referenced for: DFS-based cycle detection algorithm
+- GeeksforGeeks, 2024. *Topological Sorting*. Available at: https://www.geeksforgeeks.org/topological-sorting/ [Accessed 16 October 2025].
+  - Referenced for: Topological sort using DFS for dependency ordering
 - GeeksforGeeks, 2024. *Heap Data Structure*. Available at: https://www.geeksforgeeks.org/heap-data-structure/ [Accessed 15 October 2025].
+  - Referenced for: Min-heap structure and operations
+- GeeksforGeeks, 2024. *Min Heap in C#*. Available at: https://www.geeksforgeeks.org/min-heap-in-csharp/ [Accessed 16 October 2025].
+  - Referenced for: C# min-heap implementation with heapify operations
+- GeeksforGeeks, 2024. *Insertion and Deletion in Heaps*. Available at: https://www.geeksforgeeks.org/insertion-and-deletion-in-heaps/ [Accessed 16 October 2025].
+  - Referenced for: HeapifyUp and HeapifyDown algorithms
 - Microsoft, 2024. *Dictionary<TKey,TValue> Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2 [Accessed 13 October 2025].
+  - Referenced for: Efficient key-value storage in graph adjacency list
+- Microsoft, 2024. *List<T> Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1 [Accessed 16 October 2025].
+  - Referenced for: Dynamic array implementation for heap and BST traversal
+- Microsoft, 2024. *HashSet<T> Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1 [Accessed 16 October 2025].
+  - Referenced for: Visited set in graph cycle detection and DFS
 - Microsoft, 2024. *Queue<T> Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1 [Accessed 13 October 2025].
+  - Referenced for: Search history tracking (Part 2)
 - Microsoft, 2024. *Stack<T> Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1 [Accessed 13 October 2025].
+  - Referenced for: DFS recursion stack and topological sort
+- Microsoft, 2024. *IComparable<T> Interface*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.icomparable-1 [Accessed 16 October 2025].
+  - Referenced for: ServiceRequest comparison for BST ordering
 - Microsoft, 2024. *Windows Forms Overview*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/overview/ [Accessed 12 October 2025].
+  - Referenced for: UI implementation and DataGridView usage
+- Microsoft, 2024. *TreeView Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.treeview [Accessed 16 October 2025].
+  - Referenced for: Dependency tree visualization
+- Microsoft, 2024. *RichTextBox Class*. Microsoft Learn. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.richtextbox [Accessed 16 October 2025].
+  - Referenced for: Request details formatting
 
 ### Government and Municipal Resources
 - Department of Cooperative Governance and Traditional Affairs, 2023. *Improving Municipal Service Delivery*. Republic of South Africa. Available at: https://www.cogta.gov.za/ [Accessed 8 October 2025].
@@ -838,35 +875,67 @@ This project was completed individually by **Cherika Bodde (st10252644)** for PR
 
 ### Technical Resources
 - DotNetPerls, 2024. *C# SortedSet Examples*. Available at: https://www.dotnetperls.com/sortedset [Accessed 11 October 2025].
+  - Referenced for: Part 2 priority event sorting
+- DotNetPerls, 2024. *C# Tree Examples*. Available at: https://www.dotnetperls.com/tree [Accessed 16 October 2025].
+  - Referenced for: Tree node structure patterns
+- Programiz, 2024. *Binary Search Tree (BST)*. Available at: https://www.programiz.com/dsa/binary-search-tree [Accessed 16 October 2025].
+  - Referenced for: BST visualization and algorithm understanding
+- Programiz, 2024. *Heap Data Structure*. Available at: https://www.programiz.com/dsa/heap-data-structure [Accessed 16 October 2025].
+  - Referenced for: Heap property maintenance concepts
+- Programiz, 2024. *Graph Data Structure*. Available at: https://www.programiz.com/dsa/graph [Accessed 16 October 2025].
+  - Referenced for: Graph representation and traversal concepts
 - Stack Overflow, 2024. *When to use Stack vs Queue in C#?*. Available at: https://stackoverflow.com/questions/3825050/when-to-use-stack-vs-queue [Accessed 11 October 2025].
+  - Referenced for: Part 2 data structure selection
 - Stack Overflow, 2024. *Binary Search Tree Implementation in C#*. Available at: https://stackoverflow.com/questions/tagged/binary-search-tree+c%23 [Accessed 15 October 2025].
+  - Referenced for: C# BST implementation patterns
+- Stack Overflow, 2024. *Implementing a Min Heap in C#*. Available at: https://stackoverflow.com/questions/19720438/c-sharp-implementing-a-min-heap [Accessed 16 October 2025].
+  - Referenced for: Min-heap generic implementation approach
+- Stack Overflow, 2024. *Detect cycle in directed graph algorithm*. Available at: https://stackoverflow.com/questions/261573/best-algorithm-for-detecting-cycles-in-a-directed-graph [Accessed 16 October 2025].
+  - Referenced for: DFS cycle detection optimization
+- Stack Overflow, 2024. *Topological sort using DFS*. Available at: https://stackoverflow.com/questions/2739392/topological-sort-using-dfs [Accessed 16 October 2025].
+  - Referenced for: Topological sorting implementation details
 - Tutorialspoint, 2024. *C# - Collections*. Available at: https://www.tutorialspoint.com/csharp/csharp_collections.htm [Accessed 9 October 2025].
-- Tutorialspoint, 2024. *Data Structures and Algorithms*. Available at: https://www.tutorialspoint.com/data_structures_algorithms/index.htm [Accessed 15 October 2025].
+  - Referenced for: C# collection framework understanding
+- Tutorialspoint, 2024. *Data Structures and Algorithms - Binary Search Tree*. Available at: https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm [Accessed 16 October 2025].
+  - Referenced for: BST theoretical foundations
+- Tutorialspoint, 2024. *Data Structures and Algorithms - Graph Data Structure*. Available at: https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm [Accessed 16 October 2025].
+  - Referenced for: Graph adjacency list representation
+- Tutorialspoint, 2024. *Data Structures and Algorithms - Heap*. Available at: https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm [Accessed 16 October 2025].
+  - Referenced for: Heap array representation
 - Towards Data Science, 2023. *Building a Simple Recommendation System*. Medium. Available at: https://towardsdatascience.com/building-a-recommendation-system-e6cb0c1e5673 [Accessed 9 October 2025].
+  - Referenced for: Part 2 recommendation algorithm design
 
 ### Algorithm Visualization
 - VisuAlgo, 2024. *Visualising Data Structures and Algorithms*. Available at: https://visualgo.net/ [Accessed 15 October 2025].
+  - Referenced for: Understanding BST rotations, heap operations, and graph traversal visualization
+- VisuAlgo, 2024. *Binary Search Tree Visualization*. Available at: https://visualgo.net/en/bst [Accessed 16 October 2025].
+  - Referenced for: BST insertion, deletion, and search visualization
+- VisuAlgo, 2024. *Heap Visualization*. Available at: https://visualgo.net/en/heap [Accessed 16 October 2025].
+  - Referenced for: Min-heap heapify operations visualization
+- VisuAlgo, 2024. *Graph Traversal Visualization*. Available at: https://visualgo.net/en/dfsbfs [Accessed 16 October 2025].
+  - Referenced for: DFS traversal and cycle detection patterns
+
+### Additional C# and .NET Resources
+- C# Station, 2024. *C# Tutorial - Data Structures*. Available at: https://www.csharp-station.com/ [Accessed 16 October 2025].
+  - Referenced for: C# best practices in data structure implementation
+- Code Project, 2024. *Binary Search Tree in C#*. Available at: https://www.codeproject.com/Articles/1095392/Binary-Search-Tree-BST-Implementation-in-Csharp [Accessed 16 October 2025].
+  - Referenced for: C# BST implementation patterns and error handling
+- Code Project, 2024. *Graph Algorithms in C#*. Available at: https://www.codeproject.com/Articles/32212/Introduction-to-Graph-with-Breadth-First-Search-BF [Accessed 16 October 2025].
+  - Referenced for: Graph data structure design patterns
+- Javatpoint, 2024. *Binary Search Tree*. Available at: https://www.javatpoint.com/binary-search-tree [Accessed 16 October 2025].
+  - Referenced for: BST properties and characteristics
+- Javatpoint, 2024. *Min Heap and Max Heap*. Available at: https://www.javatpoint.com/heap-data-structure [Accessed 16 October 2025].
+  - Referenced for: Heap comparison and selection criteria
+
+### FontAwesome and UI Design
+- FontAwesome, 2024. *FontAwesome.Sharp Documentation*. Available at: https://github.com/awesome-inc/FontAwesome.Sharp [Accessed 13 October 2025].
+  - Referenced for: Icon integration in Windows Forms
+- Material Design, 2024. *Design Guidelines*. Google. Available at: https://material.io/design [Accessed 12 October 2025].
+  - Referenced for: Modern UI color schemes and layout principles
+- Material Design, 2024. *Color System*. Google. Available at: https://material.io/design/color/the-color-system.html [Accessed 16 October 2025].
+  - Referenced for: Priority color coding (high/medium/low)
 
 ---
-
-## Contact Information
-**Student:** Cherika Bodde  
-**Student Number:** st10252644  
-**Institution:** [Your Institution Name]  
-**Course:** PROG7312 - Programming 3B  
-**Submission Date:** [Submission Date]
-
-**GitHub Repository:** https://github.com/ST10252644/MunicipalAppService.git  
-**Video Demonstration:** https://youtu.be/IpyiI6u-fs8
-
-For questions or issues, please contact through the GitHub repository issue tracker or institutional email.
-
----
-
-## Version History
-- **v1.0** - Part 1: Report Issues (Initial Release)
-- **v2.0** - Part 2: Local Events and Announcements
-- **v3.0** - Part 3: Service Request Status with Advanced Data Structures (Current)
 
 ---
 
