@@ -27,19 +27,19 @@
 ## Project Overview
 This is a C# .NET Framework Windows Forms application designed to streamline municipal services in South Africa. The application enables residents to:
 
-- Report issues and request services (Part 1)
-- Access information about local events and announcements (Part 2)
-- Track service request status with advanced data structures (Part 3)
+- Report issues and request services (Part 1) (Corner, 2023)
+- Access information about local events and announcements (Part 2) (Ricci, Rokach & Shapira, 2022)
+- Track service request status with advanced data structures (Part 3) (GeeksforGeeks, 2024)
 
-**Complete Application:** All three parts fully implemented with advanced data structures and intelligent features.
+**Complete Application:** All three parts fully implemented with advanced data structures and intelligent features (Jamro, 2024).
 
 ---
 
 ## System Requirements
 - **Operating System:** Windows 10 or later
-- **Framework:** .NET Framework 4.7.2 or higher
+- **Framework:** .NET Framework 4.7.2 or higher (Microsoft, 2024)
 - **IDE:** Visual Studio 2019 or later
-- **NuGet Packages:** FontAwesome.Sharp (for icons)
+- **NuGet Packages:** FontAwesome.Sharp (for icons) (FontAwesome, 2024)
 
 ---
 
@@ -87,7 +87,7 @@ MunicipalServicesApp.exe
 
 ### 4. Local Events and Announcements (Part 2)
 **Viewing Events:**
-- Events displayed in a table sorted by priority and date
+- Events displayed in a table sorted by priority and date (Programiz, 2024)
 - **Priority Levels:**
   - HIGH (Red) - Urgent
   - MEDIUM (Yellow) - Important
@@ -102,10 +102,10 @@ MunicipalServicesApp.exe
 
 **Viewing Recommendations:**
 - Click "Recommended" button
-- Personalized based on search history, viewed events, and high-priority events
+- Personalized based on search history, viewed events, and high-priority events (Towards Data Science, 2023).
 
 **Recent Searches Panel:**
-- Shows last 10 searches with timestamps
+- Shows last 10 searches with timestamps (Microsoft, 2024).
 - Updates automatically
 
 ### 5. Service Request Status (Part 3)
@@ -115,7 +115,7 @@ MunicipalServicesApp.exe
   - RED - High Priority
   - ORANGE - Medium Priority
   - GREEN - Low Priority
-- Shows Request ID, Category, Status, Priority, Date, Department, and Location
+- Shows Request ID, Category, Status, Priority, Date, Department, and Location (Cormen et al., 2022; GeeksforGeeks, 2024).
 
 **Searching Requests:**
 - **By Request ID:** Enter exact ID in search box (uses BST for O(log n) search)
@@ -220,7 +220,7 @@ public class EventInfo : IComparable<EventInfo>
 ### Part 3 Data Structures
 
 #### 1. Binary Search Tree (BST)
-**Purpose:** Efficient O(log n) search, insert, and retrieval of service requests by Request ID.
+**Purpose:** Efficient O(log n) search, insert, and retrieval of service requests by Request ID (GeeksforGeeks, 2024; Programiz, 2024)
 
 **Implementation:**
 ```csharp
@@ -272,7 +272,7 @@ public class BSTNode
 - Traversal: O(n)
 
 #### 2. Graph (Directed Graph for Dependencies)
-**Purpose:** Model and manage dependencies between service requests.
+**Purpose:** Model and manage dependencies between service requests (Tutorialspoint, 2024; Stack Overflow, 2024)
 
 **Implementation:**
 ```csharp
@@ -360,7 +360,7 @@ public class ServiceRequestGraph
 - Prevents completing dependent requests before prerequisites
 
 #### 3. Min-Heap (Priority Queue)
-**Purpose:** Efficiently manage and retrieve highest priority service requests.
+**Purpose:** Efficiently manage and retrieve highest priority service requests (GeeksforGeeks, 2024; Javatpoint, 2024).
 
 **Implementation:**
 ```csharp
@@ -469,7 +469,7 @@ public class ServiceRequestMinHeap
 - Build Heap: O(n)
 
 #### 4. ServiceRequest Model
-**Purpose:** Core data model with IComparable implementation for BST ordering.
+**Purpose:** Core data model with IComparable implementation for BST ordering (Microsoft, 2024).
 
 ```csharp
 public class ServiceRequest : IComparable<ServiceRequest>
@@ -522,6 +522,8 @@ public enum RequestStatus
 | **HashSet** | Unique tracking | Insert/Search: O(1) | O(n) |
 | **SortedSet** | Priority sorting | Insert/Search: O(log n) | O(n) |
 
+(References for complexities: Weiss, 2012; Jamro, 2024; Cormen et al., 2022)
+
 ---
 
 ## Recommendation Feature (Part 2)
@@ -561,6 +563,8 @@ private List<EventInfo> GetRecommendedEvents()
     
     return recommendations;
 }
+(Ricci, Rokach & Shapira, 2022; Towards Data Science, 2023)
+
 ```
 
 ---
@@ -568,142 +572,143 @@ private List<EventInfo> GetRecommendedEvents()
 ## Features Implemented
 
 ### Part 1: Report Issues
-✅ Startup screen with modern UI  
-✅ Main menu navigation  
-✅ Report Issues form with:
-- Location input
-- Category selection (dropdown)
-- Description text area
-- Media attachment capability
-- Progress bar for submission
-- Input validation
-- Success confirmation
-
-### Part 2: Local Events and Announcements
-✅ Events display table with color-coded priorities  
-✅ Advanced filtering system:
-- By category
-- By date
-- By keyword
-- Combined filters
-
-✅ Search history tracking (Queue implementation)  
-✅ Recently viewed events (Stack implementation)  
-✅ Event details modal  
-✅ Intelligent recommendation engine  
-✅ Data structure implementations:
-- Stack for recent views
-- Queue for search history
-- Dictionary for category lookup
-- SortedDictionary for date-ordered events
-- HashSet for unique tracking
-- SortedSet for priority sorting
-
-✅ Modern responsive UI with hover effects
-
-### Part 3: Service Request Status
-✅ **Advanced Data Structure Integration:**
-- Binary Search Tree for efficient request lookup
-- Directed Graph for dependency management
-- Min-Heap for priority queue operations
-
-✅ **Service Request Display:**
-- Comprehensive data grid with 7 columns
-- Color-coded priority system (High/Medium/Low)
-- Alternating row colors for readability
-- Modern header styling
-- Sortable columns
-- Real-time data updates
-
-✅ **Search and Filter System:**
-- BST-powered Request ID search (O(log n) efficiency)
-- Status filtering (Pending/InProgress/Completed/Rejected)
-- Priority filtering (HIGH/MEDIUM/LOW)
-- Combined multi-filter capability
-- Clear filters functionality
-
-✅ **Request Details Panel:**
-- Complete request information display
-- Status history with timestamps
-- Department assignment info
-- Formatted descriptions
-- Color-coded status indicators
-- Rich text formatting
-
-✅ **Dependency Visualization:**
-- Interactive tree view
-- Forward dependencies ("Depends On")
-- Backward dependencies ("Required By")
-- Status icons for quick reference
-- Expandable/collapsible nodes
-- Color-coded relationship types
-
-✅ **Statistics Dashboard:**
-- Real-time metrics cards
-- Total requests counter
-- Status breakdowns:
-  - Pending count
-  - In Progress count
-  - Completed count
-- Icon-enhanced cards
-- Color-coded categories
-
-✅ **Performance Features:**
-- BST height monitoring
-- Tree balance checking
-- Node count tracking
-- Efficient traversal algorithms
-- Optimized search operations
-
-✅ **Sample Data:**
-- 12 diverse service requests
-- Multiple categories:
-  - Water & Sanitation
-  - Roads & Transport
-  - Electricity
-  - Waste Management
-  - Public Safety
-  - Parks & Recreation
-- Varied statuses and priorities
-- Realistic descriptions
-- Complete status histories
-- Interdependent requests for graph demonstration
-
-✅ **UI/UX Enhancements:**
-- Modern flat design
-- Rounded corners
-- Professional color scheme
-- Smooth transitions
-- Responsive layout
-- Emoji icons for visual appeal
-- Custom panel borders
-- Hover effects on buttons
-- Clear visual hierarchy
-
-✅ **Graph Algorithms:**
-- Cycle detection (DFS-based)
-- Topological sorting
-- Dependency depth calculation
-- Bidirectional relationship queries
-- Processing order determination
-
-✅ **Heap Operations:**
-- Dynamic priority updates
-- Efficient min extraction
-- Heap property validation
-- Batch heap building
-- Priority-based sorting with date tiebreaker
-
-✅ **BST Operations:**
-- Recursive insertion
-- Efficient search
-- In-order traversal
-- Height calculation
-- Balance verification
-- Node deletion
-- Category/status filtering
+- Startup screen with modern UI  
+- Main menu navigation  
+- Report Issues form with:  
+  - Location input  
+  - Category selection (dropdown)  
+  - Description text area  
+  - Media attachment capability  
+  - Progress bar for submission  
+  - Input validation  
+  - Success confirmation  
 
 ---
+
+### Part 2: Local Events and Announcements
+- Events display table with color-coded priorities  
+- Advanced filtering system:  
+  - By category  
+  - By date  
+  - By keyword  
+  - Combined filters  
+- Search history tracking (Queue implementation)  
+- Recently viewed events (Stack implementation)  
+- Event details modal  
+- Intelligent recommendation engine  
+- Data structure implementations:  
+  - Stack for recent views  
+  - Queue for search history  
+  - Dictionary for category lookup  
+  - SortedDictionary for date-ordered events  
+  - HashSet for unique tracking  
+  - SortedSet for priority sorting  
+- Modern responsive UI with hover effects  
+
+---
+
+### Part 3: Service Request Status
+
+1. **Advanced Data Structure Integration:**  
+   - Binary Search Tree for efficient request lookup  
+   - Directed Graph for dependency management  
+   - Min-Heap for priority queue operations  
+
+2. **Service Request Display:**  
+   - Comprehensive data grid with 7 columns  
+   - Color-coded priority system (High/Medium/Low)  
+   - Alternating row colors for readability  
+   - Modern header styling  
+   - Sortable columns  
+   - Real-time data updates  
+
+3. **Search and Filter System:**  
+   - BST-powered Request ID search (O(log n) efficiency)  
+   - Status filtering (Pending/InProgress/Completed/Rejected)  
+   - Priority filtering (HIGH/MEDIUM/LOW)  
+   - Combined multi-filter capability  
+   - Clear filters functionality  
+
+4. **Request Details Panel:**  
+   - Complete request information display  
+   - Status history with timestamps  
+   - Department assignment info  
+   - Formatted descriptions  
+   - Color-coded status indicators  
+   - Rich text formatting  
+
+5. **Dependency Visualization:**  
+   - Interactive tree view  
+   - Forward dependencies ("Depends On")  
+   - Backward dependencies ("Required By")  
+   - Status icons for quick reference  
+   - Expandable/collapsible nodes  
+   - Color-coded relationship types  
+
+6. **Statistics Dashboard:**  
+   - Real-time metrics cards  
+   - Total requests counter  
+   - Status breakdowns:  
+     - Pending count  
+     - In Progress count  
+     - Completed count  
+   - Icon-enhanced cards  
+   - Color-coded categories  
+
+7. **Performance Features:**  
+   - BST height monitoring  
+   - Tree balance checking  
+   - Node count tracking  
+   - Efficient traversal algorithms  
+   - Optimized search operations  
+
+8. **Sample Data:**  
+   - 12 diverse service requests  
+   - Multiple categories:  
+     - Water & Sanitation  
+     - Roads & Transport  
+     - Electricity  
+     - Waste Management  
+     - Public Safety  
+     - Parks & Recreation  
+   - Varied statuses and priorities  
+   - Realistic descriptions  
+   - Complete status histories  
+   - Interdependent requests for graph demonstration  
+
+9. **UI/UX Enhancements:**  
+   - Modern flat design  
+   - Rounded corners  
+   - Professional color scheme  
+   - Smooth transitions  
+   - Responsive layout  
+   - Emoji icons for visual appeal  
+   - Custom panel borders  
+   - Hover effects on buttons  
+   - Clear visual hierarchy  
+
+10. **Graph Algorithms:**  
+    - Cycle detection (DFS-based)  
+    - Topological sorting  
+    - Dependency depth calculation  
+    - Bidirectional relationship queries  
+    - Processing order determination  
+
+11. **Heap Operations:**  
+    - Dynamic priority updates  
+    - Efficient min extraction  
+    - Heap property validation  
+    - Batch heap building  
+    - Priority-based sorting with date tiebreaker  
+
+12. **BST Operations:**  
+    - Recursive insertion  
+    - Efficient search  
+    - In-order traversal  
+    - Height calculation  
+    - Balance verification  
+    - Node deletion  
+    - Category/status filtering  
 
 ## Project Structure
 ```
@@ -806,9 +811,9 @@ The application includes built-in performance metrics:
 ## Academic Integrity Statement
 This project was completed individually by **Cherika Bodde (st10252644)** for PROG7312. The following third-party resources were used under their respective licenses:
 
-- **FontAwesome.Sharp** - Icon library (MIT License)
-- **Microsoft .NET Framework** - Application framework
-- **C# Language** - Programming language
+- **FontAwesome.Sharp** - Icon library (MIT License) (FontAwesome, 2024)
+- **Microsoft .NET Framework** - Application framework (Microsoft, 2024)
+- **C# Language** - Programming language (C# Corner, 2023)
 
 ---
 
@@ -819,6 +824,8 @@ C# Corner, 2023. Understanding Data Structures in C#. Available at: https://www.
 
 C# Station, 2024. C# Tutorial - Data Structures. Available at: https://www.csharp-station.com/
  [Accessed 16 October 2025].
+
+OpenAI ChatGPT, 2025. Chat conversation with Cherika Bodde on Municipal Services Application README formatting, 12 November. Available at: https://chat.openai.com](https://chatgpt.com/share/69143858-fe04-8007-a67c-5fe1c212fe2d [Accessed 12 November 2025].
 
 Code Project, 2024. Binary Search Tree in C#. Available at: https://www.codeproject.com/Articles/1095392/Binary-Search-Tree-BST-Implementation-in-Csharp
  [Accessed 16 October 2025].
